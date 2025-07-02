@@ -5,6 +5,11 @@ const quizSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  type: {
+    type: String,
+    enum: ['multiple-choice', 'true-false', 'word-match', 'drag-drop'],
+    required: true,
+  },
   options: {
     type: [String],
     required: true,
