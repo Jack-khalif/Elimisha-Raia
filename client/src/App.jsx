@@ -1,26 +1,18 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router,} from 'react-router-dom'
+import AppRoutes from './routes/AppRoutes';
 import Layout from './components/Layout';
-import LandingPage from './pages/LandingPage';
-import LearningModulesPage from './pages/LearningModulesPage';
-import QuizPage from './pages/QuizPage';
-import ProgressPage from './pages/ProgressPage';
-import AboutPage from './pages/AboutPage';
+import './App.css'
 
 function App() {
   return (
     <Router>
       <Layout>
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/learn" element={<LearningModulesPage />} />
-          <Route path="/quiz" element={<QuizPage />} />
-          <Route path="/progress" element={<ProgressPage />} />
-          <Route path="/about" element={<AboutPage />} />
-        </Routes>
+        <main className="flex-grow">
+          <AppRoutes />
+        </main>
       </Layout>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App
