@@ -1,5 +1,4 @@
 import { Link, NavLink } from 'react-router-dom';
-
 const Header = () => {
   const navItems = [
     { name: 'Home', path: '/' },
@@ -14,8 +13,7 @@ const Header = () => {
         <Link to="/" className="text-2xl text-shadow-emerald-400 text-emerald-700 font-bold tracking-tight">
           Elimisha Raia
         </Link>
-
-        <nav className="flex gap-6 items-center">
+        <nav className="flex gap-6 items-center font-serif">
           {navItems.map((item) => (
             <NavLink
               key={item.name}

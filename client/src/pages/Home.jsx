@@ -45,7 +45,7 @@ const Home = () => {
   const t = translations[language];
 
   return (
-    <section className="relative min-h-screen text-emerald-900">
+    <section className="relative min-h-screen text-emerald-900 font-serif">
       <video
         className="absolute top-0 left-0 w-full h-full object-cover z-0 opacity-30"
         autoPlay
