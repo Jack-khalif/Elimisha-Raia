@@ -16,7 +16,7 @@ export default function LandingPage() {
           transition={{ duration: 0.8 }}
           className="relative z-10 max-w-4xl mx-auto"
         >
-          <h1 className="text-3xl md:text-xl font-bold leading-tight text-neutral-900 mb-6 drop-shadow-md">
+          <h1 className="text-3xl md:text-5xl font-bold leading-tight text-neutral-900 mb-6 drop-shadow-md">
             Play. Learn. Know <span className="text-emerald-600">Your Constitution</span>
           </h1>
           <p className="text-xl md:text-2xl text-neutral-700 mb-10 max-w-2xl mx-auto leading-relaxed">
