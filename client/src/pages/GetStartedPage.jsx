@@ -75,12 +75,19 @@ export default function GetStartedPage() {
           <option value="18-24">18–24</option>
           <option value="25-35">25–35</option>
         </select>
-        <button
-          type="submit"
-          className="w-full py-2 bg-emerald-800 text-white font-semibold rounded hover:bg-emerald-700"
-        >
-          Start Learning
-        </button>
+        <div className="flex flex-row gap-3 pt-2">
+            <button
+            type="submit"
+            className="w-full py-2 bg-emerald-800 text-white font-semibold rounded hover:bg-emerald-700">
+            Start Learning
+            </button>
+            <button
+            type="submit"
+            className="w-full py-2 bg-emerald-700 text-white font-semibold rounded hover:bg-emerald-500">
+            Start Game
+            </button>
+        </div>
+
       </form>
     </div>
   );

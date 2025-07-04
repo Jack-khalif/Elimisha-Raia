@@ -16,7 +16,7 @@ export default function Header() {
           </div>
         </Link>
         <nav className="hidden md:flex items-center space-x-6">
-          <Link to="/learn" className="text-neutral-600 font-semibold text-lg hover:text-emerald-900 transition-colors">
+          <Link to="/learning-modules" className="text-neutral-600 font-semibold text-lg hover:text-emerald-900 transition-colors">
             Learn
           </Link>
           <Link to="/quiz" className="text-neutral-600 font-semibold text-lg hover:text-emerald-900 transition-colors">
