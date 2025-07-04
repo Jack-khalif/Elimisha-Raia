@@ -1,18 +1,16 @@
-import { BrowserRouter as Router,} from 'react-router-dom'
-import AppRoutes from './routes/AppRoutes';
+import { BrowserRouter as Router } from 'react-router-dom';
+import AppRoutes from './Routes/AppRoutes';
 import Layout from './components/Layout';
-import './App.css'
+import './App.css';
 
 function App() {
   return (
     <Router>
       <Layout>
-        <main className="flex-grow">
-          <AppRoutes />
-        </main>
+        <AppRoutes />
       </Layout>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,19 +1,18 @@
 import { Routes, Route } from 'react-router-dom';
-import About from '../pages/About';
+import AboutPage from '../pages/AboutPage';
 import LandingPage from '../pages/LandingPage';
 import LearningModulesPage from '../pages/LearningModulesPage';
-import Quize from '../pages/Quize';
-
+import QuizPage from '../pages/QuizPage';
+import ProgressPage from '../pages/ProgressPage';
 
 export default function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<LandingPage />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/about" element={<AboutPage />} />
       <Route path="/learning-modules" element={<LearningModulesPage />} />
-      <Route path="/historicals" element={<Historical />} />
-      <Route path="/progress" element={<Progress />} />
-      <Route path="/quize" element={<Quize />} />
+      <Route path="/progress" element={<ProgressPage />} />
+      <Route path="/quiz" element={<QuizPage />} />
     </Routes>
   );
 }
