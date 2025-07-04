@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Play, ArrowRight } from 'lucide-react';
 import Button from '../components/Button';
-import { motion } from 'framer-motion';
 
 export default function LandingPage() {
   return (
