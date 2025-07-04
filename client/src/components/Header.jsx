@@ -33,10 +33,12 @@ export default function Header() {
           <Button variant="outline" size="sm">
             Login
           </Button>
-          <Button size="sm" className="bg-emerald-900 hover:bg-emerald-700">
-            Get Started
-          </Button>
-        </div>
+          <Link to="/get-started">
+            <Button size="sm" className="bg-emerald-900 hover:bg-emerald-700">
+              Get Started
+            </Button>
+          </Link>
+      </div>
       </div>
     </header>
   );
